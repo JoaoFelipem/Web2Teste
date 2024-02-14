@@ -1,0 +1,18 @@
+.ofertas{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.oferta{
+  border: 1px solid grey;
+  width: 20%;
+  padding: 5px;
+}
+
+.oferta img{
+  max-width:300px;
+  max-height:280px;
+  width: auto;
+  height: auto;
+}

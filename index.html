@@ -5,43 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
 
     <form>
-        <div>
+        <div class="dados">
             <label>
-                Nome 
-                <input type="text"/> 
+                Nome <br>
+                <input type="text" placeholder="Ex.: Ana"/> <br>
             </label> 
             
             <label>
-             Sobrenome
-             <input type="text"/>   
+             Sobrenome <br>
+             <input type="text" placeholder="Ex.: Maria da Silva"/>   <br>
             </label>
 
             <label>
-                Email
-                <input type="email"/>
+                Email <br>
+                <input type="email" placeholder="Ex.: maria.silva.iplace@icloud.com"/> <br>
             </label>
 
             <label>
-                Telefone
-                <input type="text"/>
+                Telefone <br>
+                <input type="text" placeholder="Ex.: 011912345678"/> <br>
             </label>
 
             <label>
-                Cidade
-                <input type="text"/>
+                Cidade <br>
+                <input type="text" placeholder="Ex.: São Paulo"/> <br>
             </label>
 
             <label>
                 Estado
-                <input type="text"/>
+                <select>
+                    <option>Acre </option>
+                    <option>Alagoas </option>
+                    <option>Amapá </option>
+                    <option>Amazonas </option>
+                    <option>Bahia </option>
+                    <option>Ceará </option>
+                    <option>Espírito Santo </option>
+                    <option>Goiás </option>
+                    <option>Maranhão </option>
+                    <option>Mato Grosso </option>
+                    <option>Mato Grosso do Sul </option>
+                    <option>Minas Gerais </option>
+                    <option>Pará </option>
+                    <option>Paraíba </option>
+                    <option>Paraná </option>
+                    <option>Pernambuco </option>
+                    <option>Piauí </option>
+                    <option>Rio de Janeiro </option>
+                    <option>Rio Grande do Norte </option>
+                    <option>Rio Grande do Sul </option>
+                    <option>Rondônia </option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina </option>
+                    <option>São Paulo </option>
+                    <option>Sergipe </option>
+                    <option>Tocantins </option>
+                </select>
             </label>
+
         </div>
+
         <text> Quais ofertas você gostaria de receber?</text>
+        <hr>
+        
+        <div class="ofertas">
+
+            <div class="oferta">
+                <input type="checkbox"  id="ipho" value="iPhone">
+                <label for="ipho"> 
+                iPhone 
+                <img src="img/iphone.png"> 
+                </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="mac" value="Mac">
+                <label for="mac"> 
+                Mac
+                <img src="img/mac.png"> 
+                </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="ipad" value="iPad">
+            <label for="ipad"> 
+                iPad
+                <img src="img/ipad.png"> 
+            </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="watch" value="Apple Watch">
+            <label for="watch"> 
+                Apple Watch
+                <img src="img/applewatch.png"> 
+            </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="pod" value="AirPods">
+            <label for="pod"> 
+                AirPods
+                <img src="img/airpod.png"> 
+            </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="tv" value="Apple TV">
+            <label for="tv"> 
+                Apple TV
+                <img src="img/appletv.png"> 
+            </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="acessorio" value="Acessórios">
+            <label for="acessorio"> 
+                Acessórios
+                <img src="img/carregador.png"> 
+            </label>
+            </div>
+            
+            <div class="oferta">
+                <input type="checkbox"  id="iplace" value="Originais iPlace">
+            <label for="iplace"> 
+                Originais iPlace
+                <img src="img/iPlace.png"> 
+            </label>
+            </div>
+            
+
+        </div>
+        <button type="reset"> Limpar dados </button>
+        <button type="submit"> Confirmar cadastro</button>
     </form>
 
 </body>
