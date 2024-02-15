@@ -12,34 +12,35 @@
 
     <form>
         <div class="dados">
-            <label>
-                Nome <br>
-                <input type="text" placeholder="Ex.: Ana"/> <br>
-            </label> 
+
+            <div class="dado">
+                <label for="nm"> Nome: </label>  
+                <input id="nm" class="nomeesobre" type="text" placeholder="Ex.: Ana"/> 
+            </div>
             
-            <label>
-             Sobrenome <br>
-             <input type="text" placeholder="Ex.: Maria da Silva"/>   <br>
-            </label>
-
-            <label>
-                Email <br>
-                <input type="email" placeholder="Ex.: maria.silva.iplace@icloud.com"/> <br>
-            </label>
-
-            <label>
-                Telefone <br>
-                <input type="text" placeholder="Ex.: 011912345678"/> <br>
-            </label>
-
-            <label>
-                Cidade <br>
-                <input type="text" placeholder="Ex.: São Paulo"/> <br>
-            </label>
-
-            <label>
-                Estado
-                <select>
+            <div class="dado">
+                <label for="sn"> Sobrenome: </label>
+                <input id="sn" class="nomeesobre" type="text" placeholder="Ex.: Maria da Silva"/> 
+            </div>
+            
+            <div class="dado">
+                <label for="em"> Email: </label>
+                <input id="em" class="emcid" type="email" placeholder="Ex.: maria.silva.iplace@icloud.com"/> 
+            </div>
+            
+            <div class="dado">
+                <label for="tel"> Telefone </label>
+                <input id="tel" type="text" placeholder="Ex.: 011912345678"/> 
+            </div>
+            
+            <div class="dado">
+                <label for="cid"> Cidade </label>
+                <input id="cid" class="emcid" type="text" placeholder="Ex.: São Paulo"/> 
+            </div>
+            
+            <div class="dado">
+                <label> Estado </label>
+                    <select>
                     <option>Acre </option>
                     <option>Alagoas </option>
                     <option>Amapá </option>
@@ -67,7 +68,8 @@
                     <option>Sergipe </option>
                     <option>Tocantins </option>
                 </select>
-            </label>
+            </div>
+            
 
         </div>
 
@@ -78,72 +80,57 @@
 
             <div class="oferta">
                 <input type="checkbox"  id="ipho" value="iPhone">
-                <label for="ipho"> 
-                iPhone 
-                <img src="img/iphone.png"> 
-                </label>
+                <label for="ipho">iPhone  </label>
+                <label for="ipho"> <img src="img/iphone.png">  </label>   
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="mac" value="Mac">
-                <label for="mac"> 
-                Mac
-                <img src="img/mac.png"> 
-                </label>
+                <label for="mac"> Mac </label>
+                <label for="mac"> <img src="img/mac.png">  </label>    
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="ipad" value="iPad">
-            <label for="ipad"> 
-                iPad
-                <img src="img/ipad.png"> 
-            </label>
+                <label for="ipad">iPad </label>
+                <label for="ipad"> <img src="img/ipad.png"> </label>
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="watch" value="Apple Watch">
-            <label for="watch"> 
-                Apple Watch
-                <img src="img/applewatch.png"> 
-            </label>
+                <label for="watch"> Apple Watch </label>
+                <label for="watch"> <img src="img/applewatch.png">  </label>
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="pod" value="AirPods">
-            <label for="pod"> 
-                AirPods
-                <img src="img/airpod.png"> 
-            </label>
+                <label for="pod"> AirPods</label>
+                <label for="pod"> <img src="img/airpod.png"> </label>
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="tv" value="Apple TV">
-            <label for="tv"> 
-                Apple TV
-                <img src="img/appletv.png"> 
-            </label>
+                <label for="tv"> Apple TV </label>
+                <label for="tv"> <img src="img/appletv.png">  </label>
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="acessorio" value="Acessórios">
-            <label for="acessorio"> 
-                Acessórios
-                <img src="img/carregador.png"> 
-            </label>
+                <label for="acessorio"> Acessórios </label>
+                <label for="acessorio"> <img src="img/carregador.png">  </label>
             </div>
             
             <div class="oferta">
                 <input type="checkbox"  id="iplace" value="Originais iPlace">
-            <label for="iplace"> 
-                Originais iPlace
-                <img src="img/iPlace.png"> 
-            </label>
+                <label for="iplace"> Originais iPlace </label>
+                <label for="iplace"> <img src="img/iPlace.png">  </label>
             </div>
             
-
         </div>
+
         <button type="reset"> Limpar dados </button>
         <button type="submit"> Confirmar cadastro</button>
+
     </form>
 
 </body>

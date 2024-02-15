@@ -1,3 +1,15 @@
+.dados{
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dado{
+  display: flex;
+  flex-direction: column;
+}
+
 .ofertas{
   display:flex;
   flex-wrap: wrap;
@@ -8,6 +20,7 @@
   border: 1px solid grey;
   width: 20%;
   padding: 5px;
+  background-color: chocolate;
 }
 
 .oferta img{
@@ -15,4 +28,12 @@
   max-height:280px;
   width: auto;
   height: auto;
+}
+
+.nomeesobre{
+  width:40%;
+}
+
+.emcid{
+  width:60%;
 }
